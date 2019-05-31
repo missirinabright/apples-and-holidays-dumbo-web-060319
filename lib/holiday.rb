@@ -25,7 +25,7 @@ end
 ##need to pass still
 def add_supply_to_winter_holidays(supplies_hash, supply)
   
-  holiday_supplies[:winter].each do |holiday|
+  holiday_supplies[:winter].each do |holiday, materials|
     binding.pry
     holiday << supply
 
